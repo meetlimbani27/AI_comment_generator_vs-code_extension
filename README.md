@@ -1,51 +1,32 @@
 # commentgenerator README
 
-This is the README for your extension "commentgenerator". After writing up a brief description, we recommend including the following sections.
+This is the README for your extension "commentgenerator". This extension generates comments for the selected code using an AI model.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
-
-For example if there is an image subfolder under your extension project workspace:
-
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+- Generate insightful comments for selected code blocks.
+- Supports multiple programming languages by detecting the appropriate comment syntax.
+- Adds the generated comment directly to the file at the specified line.
 
 ## Requirements
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+- Ensure that the Ollama server is running locally on `http://127.0.0.1:11434`.
+- Install the required dependencies by running `npm install`.
 
 ## Extension Settings
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+This extension does not contribute any settings.
 
 ## Known Issues
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+- The extension currently supports only JavaScript and Python comment syntax.
+- The Ollama server must be running locally for the extension to function.
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
+### 0.0.1
 
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
+- Initial release of commentgenerator.
 
 ---
 
